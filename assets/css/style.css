@@ -1,13 +1,25 @@
+/* Universal Rules */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element rules */
 body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header class rules */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +53,8 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
+/* Hero class rules */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +64,14 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Main content class rules */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Benefits section class rules */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -188,6 +185,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer class rules */
 .footer {
     padding: 30px;
     clear: both;
@@ -197,4 +195,15 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* Other rules */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
