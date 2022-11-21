@@ -1,11 +1,20 @@
-/* Universal Rules */
+/*
+1. Global Styles
+2. Header Styles
+3. Hero Styles
+4. Main Styles
+5. Benefits Section Styles
+6. Footer Styles 
+#############################################################################*/
+
+/* 1. Global Styles 
+#############################################################################*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Element rules */
 body {
     background-color: #d9dcd6;
 }
@@ -19,7 +28,18 @@ p {
     font-size: 16px;
 }
 
-/* Header class rules */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* 2. Header Styles
+#############################################################################*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,7 +74,8 @@ p {
 }
 
 
-/* Hero class rules */
+/* 3. Hero Styles
+#############################################################################*/
 .hero {
     height: 800px;
     width: 100%;
@@ -64,14 +85,16 @@ p {
     background-position: center;
 }
 
-/* Main content class rules */
+/* 4. Main Styles 
+#############################################################################*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Benefits section class rules */
+/* 5. Benefits Section Styles 
+#############################################################################*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -185,7 +208,8 @@ p {
     font-size: 36px;
 }
 
-/* Footer class rules */
+/* 6. Footer Styles 
+#############################################################################*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,15 +219,4 @@ p {
 
 .footer h2 {
     font-size: 20px;
-}
-
-/* Other rules */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
