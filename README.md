@@ -1,49 +1,24 @@
-# 04-code-refactor-lesson
+# Code refactor challenge
 
-### Requirements
+## Description
 
-This challenge is assessed on the following criteria: 
+This challenge is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's challenge involves a very important aspect of web development: **accessibility**.
 
-#### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria plus the following code improvements:
+## Installation
 
-  * Application's links all function correctly.
+N/A
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+## Usage
 
-  * Application's CSS file is properly commented.
+N/A
 
-#### Deployment: 32%
+![alt screenshot](assets/images/screenshot.png)
 
-* Application deployed at live URL.
+## Credits
 
-* Application loads with no errors.
+N/A
 
-* Application GitHub URL submitted.
+## License
 
-* GitHub repository that contains application code.
-
-#### Application Quality: 15%
-
-* Application resembles (at least 90%) screenshots provided in the challenge instructions.
-
-#### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-### Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+Please refer to the LICENSE in the repo.
